@@ -1,0 +1,20 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "intelephense.environment.includePaths": [
+      "C:\\Users\\wata\\Local Sites\\mqr\\app\\public"
+    ],
+   
+    "editor.fontFamily": "Cascadia Code", 
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 110,
+    "explorer.sortOrder": "type"
+  }
+}

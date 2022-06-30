@@ -1,0 +1,96 @@
+.donate {
+  margin-top: 64px;
+  margin-bottom: 72px;
+  &__heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+  }
+
+  &__title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    color: $lilas-500;
+  }
+  &__desc {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: $dark;
+  }
+
+  &__list {
+    padding-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+  &__deposito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $amarelo-300;
+    padding: 40px;
+    width: calc(50% - 16px);
+    border-radius: 16px;
+    gap: 16px;
+    text-align: center;
+    @include md {
+      width: 100%;
+    }
+    &--title {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 120%;
+      color: $amarelo-700;
+    }
+    &--subtitle {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 150%;
+      color: $amarelo-900;
+    }
+    &--text {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 150%;
+      color: $amarelo-900;
+    }
+  }
+
+  &__paypal {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+    background-color: $lilas-300;
+    padding: 40px;
+    width: calc(50% - 16px);
+    border-radius: 16px;
+    text-align: center;
+    @include md {
+      width: 100%;
+    }
+    &--subtitle {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 150%;
+      color: $lilas-900;
+    }
+    &--title {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 120%;
+      color: $lilas-800;
+    }
+    &--text {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 150%;
+      color: $lilas-900;
+    }
+  }
+}

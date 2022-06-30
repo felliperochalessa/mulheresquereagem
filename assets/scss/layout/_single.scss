@@ -1,0 +1,31 @@
+.post {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  &__wrapper {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 16px;
+    margin-bottom: 24px;
+  }
+  &__title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    color: $lilas-600;
+    padding-bottom: 32px;
+  }
+  &__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    color: $dark;
+  }
+}
